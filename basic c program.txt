@@ -1,0 +1,19 @@
+//Normal method in Static 
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+    printf("The value of a:%d\n", a);  
+    return 0;
+}
+//Using in input form in Dynamic
+
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("Enter the value of a: ");
+    scanf("%d", &a); 
+    printf("The value of a: %d\n", a);
+    return 0;
+}
