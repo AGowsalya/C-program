@@ -1,0 +1,63 @@
+#include<stdio.h>
+int main()
+{
+int a = 10, b = 3; c=10;
+//1. Arithmetic Operators
+
+printf("a + b: %d\n", a + b);  // Output: a + b: 13
+printf("a - b: %d\n", a - b);  // Output: a - b: 7
+printf("a * b: %d\n", a * b);  // Output: a * b: 30
+printf("a / b: %d\n", a / b);  // Output: a / b: 3
+printf("a % b: %d\n", a % b);  // Output: a % b: 1
+
+2. Relational Operators
+
+    printf("a == b: %d\n", a == b); // Output:a == b: 0
+    printf("a == b: %d\n", a != b); // Output: a == b: 1
+    printf("a > b: %d\n", a > b);   // Output: a > b:  1
+    printf("a < b: %d\n", a < b);  // Output: a < b: 0
+    printf("a >= c: %d\n", a >= c); // Output: a >= c: 1 
+    printf("a <= c: %d\n", a <= c); // Output: a <= c: 0
+
+3. Logical Operators
+
+printf("a && b: %d\n", a && b);  // Output: a && b:0
+    printf("a || b: %d\n", a || b);  // Output: a || b:0
+    printf("!a: %d\n", !a);     // Output: a ! :1
+    printf("a && b || c: %d\n", a && b || c);  // Output: a && b || c:1
+
+4. Assignment Operators
+
+
+a += b;  // a = a + b, so a = 13
+printf("%d\n", a);  // Output: 13
+
+5. Bitwise Operators
+
+printf("%d\n", a & b);  // Output: 1 (0101 & 0011 = 0001)
+
+6. Increment and Decrement Operators(Unary)
+
+
+printf("%d\n", ++a);  // Output: 11
+printf("%d\n", a--);  // Output: 11 (but a becomes 10 after the statement)
+printf("%d\n", ++b);  // Output: 4
+printf("%d\n", b--);  // Output: 4 (but a becomes 3 after the statement)
+
+7. Ternary (Conditional) Operator
+
+
+int result = (a > 0) ? 10 : 20;  // If a > 0, result = 10; otherwise, result = 20
+printf("%d\n", result);  // Output: 10
+
+8. Sizeof Operator
+
+
+printf("%zu\n", sizeof(a));  // Output: 4 (size of int in most systems)
+
+9. Comma Operator
+
+
+int result = (a++, b++, a + b);  // a becomes 11, b becomes 4, result = 11 + 4
+printf("%d\n", result);  // Output: 15
+
